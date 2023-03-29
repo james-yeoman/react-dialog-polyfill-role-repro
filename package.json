@@ -1,0 +1,38 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "react": "17.0.2",
+    "react-dialog-polyfill": "^1.1.6",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "12.1.5",
+    "@types/jsdom": "^21",
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.2",
+    "@vitejs/plugin-react": "^2.2.0",
+    "browserslist": "^4.21.4",
+    "jsdom": "^21.1.1",
+    "postcss": ">= 8",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-normalize": "^10.0.1",
+    "postcss-preset-env": "^7.0.1",
+    "typescript": "4.9.4",
+    "vite": "^3.2.5",
+    "vite-plugin-checker": "^0.5.1",
+    "vite-plugin-env-compatible": "^1.1.1",
+    "vite-plugin-html": "^3.2.0",
+    "vite-plugin-svgr": "^2.2.2",
+    "vite-tsconfig-paths": "^4.0.1",
+    "vitest": "^0.29.7"
+  }
+}
